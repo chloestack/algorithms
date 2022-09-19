@@ -1,4 +1,4 @@
-package com.chloestack.algorithms.datastructures.binarysearchtree.questions;
+package com.chloestack.algorithms.datastructures.binarysearchtree.questions.leedcode;
 
 import java.util.Deque;
 import java.util.LinkedList;
