@@ -1,4 +1,4 @@
-package com.chloestack.algorithms.datastructures.binarysearchtree.questions.leetcode;
+package com.chloestack.algorithms.datastructures.binarysearchtree.questions.leetcode.DFS;
 
 public class IsValidBST {
 

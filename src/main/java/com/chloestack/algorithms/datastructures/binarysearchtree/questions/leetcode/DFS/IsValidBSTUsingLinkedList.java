@@ -1,4 +1,4 @@
-package com.chloestack.algorithms.datastructures.binarysearchtree.questions.leetcode;
+package com.chloestack.algorithms.datastructures.binarysearchtree.questions.leetcode.DFS;
 
 import java.util.Deque;
 import java.util.LinkedList;

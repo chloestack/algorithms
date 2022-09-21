@@ -1,4 +1,4 @@
-package com.chloestack.algorithms.datastructures.binarysearchtree;
+package com.chloestack.algorithms.datastructures.binarysearchtree.questions.leetcode.DFS;
 
 import org.junit.jupiter.api.Test;
 
