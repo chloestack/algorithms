@@ -1,4 +1,4 @@
-package com.chloestack.algorithms.datastructures.binarysearchtree.questions.leetcode.DFS;
+package com.chloestack.algorithms.datastructures.binarysearchtree.DFS.leetcode;
 
 /**
  * Question. 98
