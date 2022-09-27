@@ -1,5 +1,7 @@
-package com.chloestack.algorithms.datastructures.binarysearchtree;
+package com.chloestack.algorithms.datastructures.binarysearchtree.questions.leetcode.DFS;
 
+import com.chloestack.algorithms.datastructures.binarysearchtree.BinaryTreeNode;
+import com.chloestack.algorithms.datastructures.binarysearchtree.DFSPreOrder;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
