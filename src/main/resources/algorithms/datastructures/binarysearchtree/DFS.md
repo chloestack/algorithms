@@ -6,7 +6,7 @@
 
 Result -> [ 1, 2, 3, 4, 5]
 
-### DFS Postorder
+### DFS Postorder LRD
 
 Bottom -> Top
 Left -> Right
@@ -17,12 +17,12 @@ Left -> Right
 상위루트 획득.
 그 상위루트의 오른쪽 노드 획득.
 
-### DFS Preorder
+### DFS Preorder DLR
 
 Top -> Bottom
 Left -> Right
 
-### DFS Inorder
+### DFS Inorder LDR
 
 Left -> Node -> Right
 
