@@ -28,6 +28,22 @@ public class EvaluateTree {
         return root.val == FALSE ? false : true;
     }
 
+    // java 14 이상에서만 지원 : switch arrow
+//    private boolean evaluateUsingSwitch(TreeNode root) {
+//        if (root == null) {
+//            return false;
+//        }
+//
+//        return switch(root.val) {
+//            case 0 -> false;
+//            case 1 -> true;
+//            case 2 -> evaluateUsingSwitch(root.left) && evaluateUsingSwitch(root.right);
+//            case 3 -> evaluateUsingSwitch(root.left) || evaluateUsingSwitch(root.right);
+//            default -> throw new RuntimeException();
+//        }
+//
+//    }
+
     public boolean evaluateTree(TreeNode root) {
         return evaluate(root);
     }
