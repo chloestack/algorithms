@@ -1,4 +1,4 @@
-package com.chloestack.algorithms.datastructures.binarysearchtree.questions.leetcode.DFS;
+package com.chloestack.algorithms.datastructures.binarysearchtree.BFS.leetcode;
 
 public class TreeNode {
 

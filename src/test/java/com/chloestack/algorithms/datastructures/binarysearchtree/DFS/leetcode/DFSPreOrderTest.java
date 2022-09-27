@@ -1,4 +1,4 @@
-package com.chloestack.algorithms.datastructures.binarysearchtree.questions.leetcode.DFS;
+package com.chloestack.algorithms.datastructures.binarysearchtree.DFS.leetcode;
 
 import com.chloestack.algorithms.datastructures.binarysearchtree.BinaryTreeNode;
 import com.chloestack.algorithms.datastructures.binarysearchtree.DFSPreOrder;
