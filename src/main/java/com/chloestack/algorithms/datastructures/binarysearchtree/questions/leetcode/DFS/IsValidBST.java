@@ -1,5 +1,10 @@
 package com.chloestack.algorithms.datastructures.binarysearchtree.questions.leetcode.DFS;
 
+/**
+ * Question. 98
+ * Depth First Search.
+ * 깊이 우선 탐색 문제
+ */
 public class IsValidBST {
 
     public boolean validate(TreeNode root, Integer low, Integer high) {
