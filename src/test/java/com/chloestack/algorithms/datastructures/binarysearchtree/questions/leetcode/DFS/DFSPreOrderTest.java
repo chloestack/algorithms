@@ -27,6 +27,6 @@ class DFSPreOrderTest {
         node1.setRight(right1);
 
         DFSPreOrder dfsPreOrder = new DFSPreOrder();
-        dfsPreOrder.preOrder(node1);
+        // dfsPreOrder.preOrder(node1);
     }
 }
