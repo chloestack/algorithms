@@ -15,31 +15,48 @@ public class PathSum {
             return false;
         }
 
-        return verify(root, targetSum);
+        // return verifyType1(root, targetSum, root.val);
+        return verifyType2(root, targetSum);
     }
 
-    /**
-     *
-     * @param node
-     * @param targetSum
-     * @return
-     */
-    public boolean verify(TreeNode node, int targetSum) {
+    private boolean verifyType1(TreeNode node, int targetSum, int sum) {
 
-        Queue<TreeNode> q = new LinkedList<>();
-        q.offer(node);
-
-        int sum = node.val; // default
-        int temp = 0;
-
-        while(!q.isEmpty()) {
-            int size = q.size();
-
-            for (int i = 0 ; i < size ; i++ ) {
-
-            }
-
+        if (node.left == null && node.right == null) {
+            return sum == targetSum ? true : false;
         }
-        return temp == targetSum ? true : false;
+
+        if (node.left != null ) {
+            if(verifyType1(node.left, targetSum, sum + node.left.val)){
+                return true;
+            }
+        }
+
+        if (node.right != null ) {
+            if(verifyType1(node.right, targetSum, sum + node.right.val)){
+                return true;
+            }
+        }
+
+        return false;
     }
+
+    private boolean verifyType2(TreeNode node, int targetSum) {
+        if (node == null) {
+            return false;
+        }
+
+        targetSum -= node.val;
+
+        if (node.left == null && node.right == null) {
+            if (targetSum == 0) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        return verifyType2(node.left, targetSum) || verifyType2(node.right, targetSum);
+    }
+
+
 }
