@@ -1,6 +1,8 @@
 package com.chloestack.algorithms.datastructures.binarysearchtree.DFS.leetcode;
 
 
+import com.chloestack.algorithms.datastructures.binarysearchtree.DFS.leetcode.datatype.TreeNode;
+
 /**
  * Leet 110. Balanced Binary Tree
  */

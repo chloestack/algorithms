@@ -1,9 +1,6 @@
 package com.chloestack.algorithms.datastructures.binarysearchtree.DFS.leetcode;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
-import java.util.Stack;
+import com.chloestack.algorithms.datastructures.binarysearchtree.DFS.leetcode.datatype.TreeNode;
 
 /**
  * leet 114
