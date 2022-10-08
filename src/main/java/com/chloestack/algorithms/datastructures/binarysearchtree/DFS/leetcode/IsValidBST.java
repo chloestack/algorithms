@@ -1,5 +1,7 @@
 package com.chloestack.algorithms.datastructures.binarysearchtree.DFS.leetcode;
 
+import com.chloestack.algorithms.datastructures.binarysearchtree.DFS.leetcode.datatype.TreeNode;
+
 /**
  * Question. 98
  * Depth First Search.

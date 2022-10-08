@@ -1,4 +1,4 @@
-package com.chloestack.algorithms.datastructures.binarysearchtree.DFS.leetcode;
+package com.chloestack.algorithms.datastructures.binarysearchtree.DFS.leetcode.datatype;
 
 import java.util.ArrayList;
 import java.util.List;

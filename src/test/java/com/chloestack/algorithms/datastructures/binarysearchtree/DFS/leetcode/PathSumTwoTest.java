@@ -1,8 +1,7 @@
 package com.chloestack.algorithms.datastructures.binarysearchtree.DFS.leetcode;
 
+import com.chloestack.algorithms.datastructures.binarysearchtree.DFS.leetcode.datatype.TreeNode;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class PathSumTwoTest {
 
