@@ -1,7 +1,5 @@
 package com.chloestack.algorithms.datastructures.binarysearchtree.DFS.leetcode;
 
-import com.chloestack.algorithms.datastructures.binarysearchtree.DFS.leetcode.datatype.TreeNode;
-
 /**
  * leet 114
  * Binary Tree -> LinkedList
