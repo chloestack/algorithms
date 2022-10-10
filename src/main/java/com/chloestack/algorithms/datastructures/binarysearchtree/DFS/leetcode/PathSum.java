@@ -1,7 +1,5 @@
 package com.chloestack.algorithms.datastructures.binarysearchtree.DFS.leetcode;
 
-import com.chloestack.algorithms.datastructures.binarysearchtree.DFS.leetcode.datatype.TreeNode;
-
 /**
  * leet 112
  * Given TreeNode has Root-to-Leaf Sum which is equals targetSum
