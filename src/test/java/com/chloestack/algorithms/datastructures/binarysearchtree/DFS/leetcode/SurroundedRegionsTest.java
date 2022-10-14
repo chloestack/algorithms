@@ -34,11 +34,24 @@ class SurroundedRegionsTest {
         sr1.solve(board1);
         Arrays.stream(board1).forEach(b -> System.out.println(b));
 
+        SurroundedRegions sr2 = new SurroundedRegions();
+
+        char[][] board2 = new char[4][6];
+        board2[0] = new char[]{'X', 'O', 'X', 'O', 'X', 'O'};
+        board2[1] = new char[]{'O', 'X', 'O', 'X', 'O', 'X'};
+        board2[2] = new char[]{'X', 'O', 'X', 'O', 'X', 'O'};
+        board2[3] = new char[]{'O', 'X', 'O', 'X', 'O', 'X'};
+
+        sr2.solve(board2);
+        Arrays.stream(board2).forEach(b -> System.out.println(b));
+
 //        char[][] test = new char[2][4];
 //        test[0] = new char[]{'X', 'X', 'X', 'X'};
 //        test[1] = new char[]{'X', 'O', 'X', 'X'};
 //
 //        sr.solve(test);
 //        Arrays.stream(test).forEach(b -> System.out.println(b));
+
+
     }
 }
