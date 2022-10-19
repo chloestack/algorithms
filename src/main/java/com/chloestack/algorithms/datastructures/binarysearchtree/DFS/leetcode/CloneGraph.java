@@ -48,5 +48,31 @@ public class CloneGraph {
         return map.get(node);
     }
 
+    public Node cloneGraph2(Node node) {
+        HashMap<Node, Node> mapper = new HashMap<>();
+        return dfs(node, mapper);
+    }
+
+    private Node dfs(Node node, HashMap<Node, Node> mapper) {
+        if (node == null ) {
+            return null;
+        }
+
+        if(mapper.containsKey(node)) {
+            return mapper.get(node);
+        }
+
+        Node clone = new Node(node.val);
+        mapper.put(node, clone); // A -> B
+
+        List<Node> neighbors = node.neighbors;
+        for(Node n : neighbors) { // neighbors of A
+            clone.neighbors.add(dfs(n, mapper));
+        }
+
+        return clone;
+    }
+
+
 
 }
